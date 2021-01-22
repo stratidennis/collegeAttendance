@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #131615;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.logoutForm {
+    display: flex;
+    flex-direction: row;
+}
+
+.loginForm li, .elements {
+    margin-right: 35px;
+}
+
+.inputs, .elements {
+    background-color: #1F2421;
+    border: 2px solid #DCE1DE;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    outline: none;
+    padding: 5px;
+}
+
+.elements {
+    margin-top: 14px;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+}
+
+.firstElement {
+    margin-left: 40px;
+}
+
+.elements a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.loginForm li button, .logoutButton {
+    background: #1F2421;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.logoutButton {
+    padding: 8px 20px;
+}
+
+@media screen and (max-width:650px) {
+    .inputs2 {
+        width: 110px;
+    }
+    .elements {
+        font-size: 12px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .elements {
+        font-size: 11px;
+        margin-right: 18px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    header {
+        padding: 5px;
+    }
+    .loginForm li, .elements {
+        margin-right: 17px;
+    }
+    .inputs2 {
+        border: 1.5px solid #DCE1DE;
+        font-size: 10px;
+        padding: 3px;
+        width: 80px;
+    }
+    .elements {
+        border: 1.5px solid #DCE1DE;
+        font-size: 10px;
+        padding: 3px 5px;
+    }
+    .loginForm li button, .logoutButton {
+        border: 1.5px solid #DCE1DE;
+        font-size: 10px;
+        padding: 3px 7px;
+    }
+    .firstElement {
+        margin-left: 13px;
+    }
+    .firstInput {
+        margin-left: -30px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .elements {
+        font-size: 9px;
+        font-weight: normal;
+        margin-right: 10px;
+    }
+}

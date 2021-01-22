@@ -1,0 +1,36 @@
+#presence {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#presence td, #presence th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#presence tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#presence tr:hover {
+    background-color: #ddd;
+}
+
+#presence th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #6b6b6b;
+    color: white;
+}
+
+h2 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 15px;
+    text-align: left;
+    color: #131615;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}

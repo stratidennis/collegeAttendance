@@ -1,0 +1,127 @@
+body {
+    background-color: #DCE1DE;
+}
+
+.presences{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 45px;
+    width: 80%;
+}
+
+.curs, .seminar {
+    background-color: #ebeeec;
+    border: 4px solid #131615;
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+    padding: 0px;
+    width: 50%;
+}
+
+.cursPresence, .seminarPresence {
+    margin: 20% auto;
+    width: 100%;
+}
+
+.cursPresence button, .seminarPresence button {
+    background-color: #092327;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px 2px #ccc;
+    color: #DCE1DE;
+    cursor: pointer;
+    font-family: 'Gotu', sans-serif;
+    font-weight: bold;
+    margin: 25px 30%;
+    outline: none;
+    padding: 20px 0;
+    width: 40%;
+}
+
+.variantText {
+    background-color: #0B5351;
+    color: #DCE1DE;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 6px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.notNow {
+    color: #E40066;
+    font-family: 'Gotu', sans-serif;
+    font-size: 18px;
+    margin: auto auto;
+    text-align: center;
+    width: 90%;
+}
+
+.confirm {
+    color: #35df54;
+    font-family: 'Gotu', sans-serif;
+    font-size: 18px;
+    margin: auto auto;
+    text-align: center;
+    width: 90%;
+}
+
+.error {
+    color: #E40066;
+    text-align: center;
+}
+
+.green {
+    color: #35df54;
+}
+
+.red {
+    color: #E40066;
+}
+
+.yellow {
+    color: #ffc400;
+}
+
+.grey {
+    color: #6e6e6e;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .cursPresence button, .seminarPresence button {
+        margin: 25px 20%;
+        width: 60%;
+        padding: 18px 0;
+    }
+    .notNow, .confirm {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .cursPresence button, .seminarPresence button {
+        padding: 11px 0;
+    }
+    .notNow, .confirm {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cursPresence button, .seminarPresence button {
+        margin: 25px 10%;
+        padding: 9px 0;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .cursPresence button, .seminarPresence button {
+        padding: 7px 0;
+    }
+}
